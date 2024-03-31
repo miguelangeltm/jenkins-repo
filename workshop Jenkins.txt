@@ -1,0 +1,8 @@
+To do:
+
+-- Conectarse a Github vía SSH
+-- Clonar repositorio de Github
+-- Contenerizar app de repo (Dockerfile)
+-- Armar pipeline que revise el repo de Github y actualice la imagen de Docker
+       - Inicialmente la revisión se hace de forma periódica (modelo pull)
+       - Luego debe hacerse cada que se hace un cambio en el repositorio de Github (modelo push)
