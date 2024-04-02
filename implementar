@@ -1,0 +1,4 @@
+template-file-path: >-
+  https://github.com/miguelangeltm/jenkins-repo/blob/master/CloudFormation_ProvisionTemplate.yml
+parameters: {}
+tags: {}
