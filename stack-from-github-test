@@ -1,0 +1,4 @@
+template-file-path: >-
+  https://raw.githubusercontent.com/miguelangeltm/jenkins-repo/master/CloudFormation_ProvisionTemplate.yml?token=GHSAT0AAAAAACOEG3PPLOCMAE3KPYM57KBKZQLJO7Q
+parameters: {}
+tags: {}
