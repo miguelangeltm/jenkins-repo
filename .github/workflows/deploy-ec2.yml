@@ -26,4 +26,4 @@ jobs:
           aws-region: eu-west-1
 
       - name: Deploy EC2 instance
-        run: aws cloudformation deploy --CloudFormation_ProvisionTemplate.yml --stack-name jenkins-gh-stack
+        run: aws cloudformation deploy --template-file CloudFormation_ProvisionTemplate.yml --stack-name jenkins-gh-stack
