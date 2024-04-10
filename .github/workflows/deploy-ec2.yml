@@ -9,8 +9,6 @@ on:
     branches:
       - master
       - main
-
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,7 +23,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: eu-west-1a
+          aws-region: eu-west-1
 
       - name: Deploy EC2 instance
         run: aws cloudformation deploy --CloudFormation_ProvisionTemplate.yml --stack-name jenkins-gh-stack
